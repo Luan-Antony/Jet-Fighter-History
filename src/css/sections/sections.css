@@ -10,6 +10,14 @@
     width: 100%;
 }
 
+.slider {
+    display: none;
+}
+
+.slider.ativo {
+    display: block;
+}
+
 .slide img {
     position: absolute;
     width: 100%;
@@ -19,7 +27,7 @@
     transition: .3s ease;
 }
 
-.slide:nth-child(5) img {
+.us .slide:nth-child(5) img {
     width: auto;
     height: auto;
     translate: 0% -10%;
