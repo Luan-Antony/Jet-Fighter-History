@@ -11,14 +11,13 @@ html {
     position: fixed;
     width: 100%;
     background: transparent;
-    padding: 25px 40px 20px 15px;
+    padding: 35px 40px 20px 15px;
     z-index: 100;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .title {
@@ -32,7 +31,8 @@ html {
     position: relative;
     display: inline-block;
     right: 45px;
-    border: 2px solid black;
+    border: 5px double rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
 }
 
 .menu-selecao button {
@@ -65,9 +65,8 @@ html {
     left: 0;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     list-style: none;
-    position: relative;
     width: 222px;
-    z-index: 999;
+    z-index: 3000;
 }
 
 .country-list li {
@@ -100,6 +99,7 @@ html {
 .links {
     display: flex;
     gap: 15px;
+    padding-top: 10px;
 }
 
 .links a {

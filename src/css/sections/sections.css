@@ -4,6 +4,10 @@
     height: 100vh;
 }
 
+.slider .welcome {
+    background-color: darkgray;
+}
+
 .slider .slide {
     position: absolute;
     height: 100%;

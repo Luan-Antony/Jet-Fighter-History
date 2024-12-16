@@ -4,35 +4,36 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const nextBtn = document.getElementById("next-btn");
     const prevBtn = document.getElementById("prev-btn");
-    const slides = document.querySelectorAll('.slide');
     const slider = document.querySelectorAll('.slider');
 
-
+    let currentGroup = null;
     let slideNumber = 0;
 
     nextBtn.onclick = () => {
+        if (currentGroup=== null) return;
+
+        const slides = slider[currentGroup].querySelectorAll('.slide');
+
         if (slideNumber >= slides.length - 1) {
             return;
         }
 
-        slides.forEach((slide) => {
-            slide.classList.remove('active');
-        });
-
+        slides[slideNumber].classList.remove('active');
         slideNumber++;
 
         slides[slideNumber].classList.add('active');
     };
 
     prevBtn.onclick = () => {
+        if (currentGroup=== null) return;
+
+        const slides = slider[currentGroup].querySelectorAll('.slide');
+
         if (slideNumber <= 0) {
             return;
         }
 
-        slides.forEach((slide) => {
-            slide.classList.remove('active');
-        });
-
+        slides[slideNumber].classList.remove('active');
         slideNumber--;
 
         slides[slideNumber].classList.add('active');
@@ -58,11 +59,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function changeSlide() {
         const countryIndex = {
-            'United States': 0,
-            'United Kingdom': 1,
-            'Russia': 2,
-            'Sweden': 3,
-            'French': 4
+            'Welcome': 0,
+            'United States': 1,
+            'United Kingdom': 2,
+            'Russia': 3,
+            'Sweden': 4,
+            'French': 5
         };
     
         slider.forEach(slide => slide.classList.remove('ativo'));
@@ -70,7 +72,14 @@ document.addEventListener('DOMContentLoaded', () => {
         const country = botaoPrincipal.firstChild.textContent;
         const index = countryIndex[country];
         if (index !== undefined) {
-            slider[index].classList.add('ativo');
+            currentGroup = index;
+            const activeGroup = slider[currentGroup];
+            activeGroup.classList.add('ativo');
+
+            slideNumber = 0;
+            const slides = activeGroup.querySelectorAll('.slide');
+            slides.forEach(slide => slide.classList.remove('active'));
+            slides[slideNumber].classList.add('active');
         }
     }
 });
