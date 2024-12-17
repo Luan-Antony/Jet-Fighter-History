@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'United Kingdom': 2,
             'Russia': 3,
             'Sweden': 4,
-            'French': 5
+            'France': 5
         };
     
         slider.forEach(slide => slide.classList.remove('ativo'));
