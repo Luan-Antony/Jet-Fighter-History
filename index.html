@@ -7,9 +7,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:wght@400;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 
@@ -25,10 +23,10 @@
 <body>
     <header class="header">
         <div class="container">
-            <h1 class="title">Jet Fighters History</h1>
+            <a class="title" id="title">Jet Fighters History</a>
             <div class="menu-selecao">
                 <button class="botao-principal" id="botao-principal">
-                    Select Country
+                    United States
                     <i class="fa-solid fa-caret-down"></i>
                 </button>
 
@@ -43,20 +41,15 @@
 
             <nav class="menu">
                 <div class="links">
-                    <button href="#">About Me</button>
-                    <button href="#">Code Source</button>
+                    <a href="https://luan-antony.github.io/Portifolio/" target="_blank">About Me</a>
+                    <a href="https://github.com/Luan-Antony/Jet-Fighter-History" target="_blank">Code Source</a>
                 </div>
             </nav>
         </div>
     </header>
 
-    <section class="banner">
-        <div class="slider ativo">
-            <div class="slide active welcome">
-            </div>
-        </div>
-
-        <div class="slider us">
+    <main class="main">
+        <div class="slider us ativo">
             <div class="slide active">
                 <img src="./src/images/USA/F80.jpg" alt="F-80">
                 <div class="left-info">
@@ -65,10 +58,18 @@
                     </div>
                     <div class="content">
                         <h3>Lockheed Martin - 1944</h3>
-                        <p>The F-80 Shooting Star was the first operational jet fighter used by the United States Air Force (USAF). Developed by Lockheed during World War II, it was designed to compete with advanced German jet aircraft like the Messerschmitt Me 262. The prototype, designated XP-80, flew for the first time in January 1944.
-                        <br>
-                        <br>
-                        The F-80 featured a single-engine, straight-wing design and was powered by a centrifugal-flow turbojet. It had a maximum speed of approximately 600 mph (965 km/h) and a range of about 1,000 miles (1,609 km). Armed with six .50-caliber machine guns, it could also carry bombs and rockets, making it versatile for both air-to-air combat and ground-attack missions.</p>
+                        <p>The F-80 Shooting Star was the first operational jet fighter used by the United States
+                            Air Force (USAF). Developed by Lockheed during World War II, it was designed to compete
+                            with advanced German jet aircraft like the Messerschmitt Me 262. The prototype,
+                            designated XP-80, flew for the first time in January 1944.
+                            <br>
+                            <br>
+                            The F-80 featured a single-engine, straight-wing design and was powered by a
+                            centrifugal-flow turbojet. It had a maximum speed of approximately 600 mph (965 km/h)
+                            and a range of about 1,000 miles (1,609 km). Armed with six .50-caliber machine guns, it
+                            could also carry bombs and rockets, making it versatile for both air-to-air combat and
+                            ground-attack missions.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -85,10 +86,17 @@
                     </div>
                     <div class="content">
                         <h3>Republic - 1947</h3>
-                        <p>The F-84 Thunderjet was an early jet-powered fighter-bomber developed by Republic Aviation for the United States Air Force (USAF). Designed in the mid-1940s, it was introduced as a straight-wing aircraft and later evolved into more advanced swept-wing variants. The first prototype flew in 1946, and it entered service in 1947.
-                        <br>
-                        <br>
-                        The F-84 was powered by a turbojet engine, achieving a maximum speed of around 620 mph (1,000 km/h) with a range of approximately 1,000 miles (1,600 km). Its robust airframe allowed it to carry a significant payload of bombs, rockets, and even tactical nuclear weapons, making it a versatile fighter-bomber.</p>
+                        <p>The F-84 Thunderjet was an early jet-powered fighter-bomber developed by Republic
+                            Aviation for the United States Air Force (USAF). Designed in the mid-1940s, it was
+                            introduced as a straight-wing aircraft and later evolved into more advanced swept-wing
+                            variants. The first prototype flew in 1946, and it entered service in 1947.
+                            <br>
+                            <br>
+                            The F-84 was powered by a turbojet engine, achieving a maximum speed of around 620 mph
+                            (1,000 km/h) with a range of approximately 1,000 miles (1,600 km). Its robust airframe
+                            allowed it to carry a significant payload of bombs, rockets, and even tactical nuclear
+                            weapons, making it a versatile fighter-bomber.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -105,10 +113,18 @@
                     </div>
                     <div class="content">
                         <h3>North American - 1947</h3>
-                        <p>The F-86 Sabre was a transonic jet fighter developed by North American Aviation in the early 1940s. It became one of the most iconic and successful fighters of the Cold War era, serving as the primary U.S. fighter during the Korean War. The F-86 was designed to counter the Soviet MiG-15, which had superior performance in early jet combat.
-                        <br>
-                        <br>
-                        The F-86 featured a swept-wing design, which was a major innovation at the time, providing enhanced maneuverability at high speeds. Powered by a turbojet engine, the F-86 had a top speed of around 685 mph (1,100 km/h) and a combat radius of 400 miles (640 km). It was armed with six .50-caliber machine guns and could carry rockets or bombs for ground-attack missions.</p>
+                        <p>The F-86 Sabre was a transonic jet fighter developed by North American Aviation in the
+                            early 1940s. It became one of the most iconic and successful fighters of the Cold War
+                            era, serving as the primary U.S. fighter during the Korean War. The F-86 was designed to
+                            counter the Soviet MiG-15, which had superior performance in early jet combat.
+                            <br>
+                            <br>
+                            The F-86 featured a swept-wing design, which was a major innovation at the time,
+                            providing enhanced maneuverability at high speeds. Powered by a turbojet engine, the
+                            F-86 had a top speed of around 685 mph (1,100 km/h) and a combat radius of 400 miles
+                            (640 km). It was armed with six .50-caliber machine guns and could carry rockets or
+                            bombs for ground-attack missions.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -124,10 +140,19 @@
                     </div>
                     <div class="content">
                         <h3>North American - 1953</h3>
-                        <p>The F-100 Super Sabre was the first aircraft in the United States Air Force (USAF) to exceed the speed of sound in level flight and became one of the cornerstone fighters of the Cold War era. Developed by North American Aviation, it was a natural evolution of the F-86 Sabre, featuring a more powerful engine, a supersonic design, and advanced avionics.
-                        <br>
-                        <br>
-                        Introduced in 1954, the F-100 had a swept-wing design and was powered by a turbojet engine, which gave it a top speed of around 1,200 mph (1,930 km/h), making it one of the fastest aircraft of its time. It had a combat radius of approximately 500 miles (800 km), and could carry a wide range of munitions, including bombs, rockets, and nuclear weapons.</p>
+                        <p>The F-100 Super Sabre was the first aircraft in the United States Air Force (USAF) to
+                            exceed the speed of sound in level flight and became one of the cornerstone fighters of
+                            the Cold War era. Developed by North American Aviation, it was a natural evolution of
+                            the F-86 Sabre, featuring a more powerful engine, a supersonic design, and advanced
+                            avionics.
+                            <br>
+                            <br>
+                            Introduced in 1954, the F-100 had a swept-wing design and was powered by a turbojet
+                            engine, which gave it a top speed of around 1,200 mph (1,930 km/h), making it one of the
+                            fastest aircraft of its time. It had a combat radius of approximately 500 miles (800
+                            km), and could carry a wide range of munitions, including bombs, rockets, and nuclear
+                            weapons.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -144,10 +169,19 @@
                     </div>
                     <div class="content">
                         <h3>McDonnell Douglas - 1958</h3>
-                        <p>The F-4 Phantom II is one of the most versatile and iconic jet fighters in aviation history. Developed by McDonnell Aircraft for the United States Navy, it was first introduced in 1960 and quickly became one of the most successful and widely used aircraft during the Cold War and beyond.
-                        <br>
-                        <br>
-                        The F-4 was a tandem two-seat, twin-engine aircraft with a distinctive fuselage design. It was powered by two turbojet engines, which allowed it to reach speeds over Mach 2 (1,400 mph or 2,250 km/h). Its range was approximately 1,500 miles (2,400 km). The aircraft was equipped with advanced avionics, radar systems, and could carry a wide array of weapons, including air-to-air missiles (like the AIM-7 Sparrow and AIM-9 Sidewinder), bombs, and rockets.</p>
+                        <p>The F-4 Phantom II is one of the most versatile and iconic jet fighters in aviation
+                            history. Developed by McDonnell Aircraft for the United States Navy, it was first
+                            introduced in 1960 and quickly became one of the most successful and widely used
+                            aircraft during the Cold War and beyond.
+                            <br>
+                            <br>
+                            The F-4 was a tandem two-seat, twin-engine aircraft with a distinctive fuselage design.
+                            It was powered by two turbojet engines, which allowed it to reach speeds over Mach 2
+                            (1,400 mph or 2,250 km/h). Its range was approximately 1,500 miles (2,400 km). The
+                            aircraft was equipped with advanced avionics, radar systems, and could carry a wide
+                            array of weapons, including air-to-air missiles (like the AIM-7 Sparrow and AIM-9
+                            Sidewinder), bombs, and rockets.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -164,10 +198,19 @@
                     </div>
                     <div class="content">
                         <h3>Northrop - 1958</h3>
-                        <p>The F-5 Freedom Fighter is the original version of the Northrop F-5 series, developed in the late 1950s as a low-cost, light fighter for air forces with limited budgets. Designed for air-to-air combat and ground attack, the F-5 was intended to be a simple, easy-to-maintain aircraft that could still deliver solid performance. It became one of the most successful and widely used jet fighters in the world due to its affordability and reliability.
-                        <br>
-                        <br>
-                        Introduced in 1962, the F-5A Freedom Fighter was powered by two J85-GE-13 turbojet engines, allowing it to reach speeds of 1,050 mph (1,690 km/h). Its combat radius was around 650 miles (1,050 km), and it could carry a variety of weapons, including rockets, bombs, and air-to-air missiles.</p>
+                        <p>The F-5 Freedom Fighter is the original version of the Northrop F-5 series, developed in
+                            the late 1950s as a low-cost, light fighter for air forces with limited budgets.
+                            Designed for air-to-air combat and ground attack, the F-5 was intended to be a simple,
+                            easy-to-maintain aircraft that could still deliver solid performance. It became one of
+                            the most successful and widely used jet fighters in the world due to its affordability
+                            and reliability.
+                            <br>
+                            <br>
+                            Introduced in 1962, the F-5A Freedom Fighter was powered by two J85-GE-13 turbojet
+                            engines, allowing it to reach speeds of 1,050 mph (1,690 km/h). Its combat radius was
+                            around 650 miles (1,050 km), and it could carry a variety of weapons, including rockets,
+                            bombs, and air-to-air missiles.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -184,10 +227,19 @@
                     </div>
                     <div class="content">
                         <h3>Grumman - 1970</h3>
-                        <p>The F-14 Tomcat is a legendary carrier-based fighter aircraft developed by Grumman for the United States Navy. Introduced in the early 1970s, the F-14 became one of the most iconic and versatile jet fighters of the Cold War era, known for its distinctive variable-sweep wing design, impressive performance, and long service life.
-                        <br>
-                        <br>
-                        Powered by two Pratt & Whitney TF30 turbofan engines (later upgraded to GE F110 engines in later models), the F-14 had a maximum speed of around 1,550 mph (2,500 km/h). The F-14 was a long-range interceptor and could carry a variety of air-to-air and air-to-ground weapons. The F-14 was also capable of carrying bombs, rockets, and precision-guided munitions, making it a highly versatile platform for both long-range air-to-air and strike missions.</p>
+                        <p>The F-14 Tomcat is a legendary carrier-based fighter aircraft developed by Grumman for
+                            the United States Navy. Introduced in the early 1970s, the F-14 became one of the most
+                            iconic and versatile jet fighters of the Cold War era, known for its distinctive
+                            variable-sweep wing design, impressive performance, and long service life.
+                            <br>
+                            <br>
+                            Powered by two Pratt & Whitney TF30 turbofan engines (later upgraded to GE F110 engines
+                            in later models), the F-14 had a maximum speed of around 1,550 mph (2,500 km/h). The
+                            F-14 was a long-range interceptor and could carry a variety of air-to-air and
+                            air-to-ground weapons. The F-14 was also capable of carrying bombs, rockets, and
+                            precision-guided munitions, making it a highly versatile platform for both long-range
+                            air-to-air and strike missions.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -204,10 +256,18 @@
                     </div>
                     <div class="content">
                         <h3>McDonnell Douglas - 1972</h3>
-                        <p>The F-15 Eagle is a highly advanced, all-weather, tactical fighter aircraft developed by McDonnell Douglas. First introduced in the mid-1970s, the F-15 was designed to excel in air superiority missions, ensuring dominance in the skies. Its primary role is to engage and destroy enemy aircraft, but it is also capable of performing ground-attack missions.
-                        <br>
-                        <br>
-                        The F-15 is powered by two Pratt & Whitney F100-PW-100 engines, allowing it to achieve speeds of over Mach 2.5 (1,650 mph or 2,660 km/h). It has a combat radius of around 2,400 miles (3,860 km) with external fuel tanks, giving it long-range capabilities. The aircraft is armed with a variety of air-to-air missiles, including AIM-7 Sparrow, AIM-120 AMRAAM, and AIM-9 Sidewinder, as well as a M61 Vulcan cannon.</p>
+                        <p>The F-15 Eagle is a highly advanced, all-weather, tactical fighter aircraft developed by
+                            McDonnell Douglas. First introduced in the mid-1970s, the F-15 was designed to excel in
+                            air superiority missions, ensuring dominance in the skies. Its primary role is to engage
+                            and destroy enemy aircraft, but it is also capable of performing ground-attack missions.
+                            <br>
+                            <br>
+                            The F-15 is powered by two Pratt & Whitney F100-PW-100 engines, allowing it to achieve
+                            speeds of over Mach 2.5 (1,650 mph or 2,660 km/h). It has a combat radius of around
+                            2,400 miles (3,860 km) with external fuel tanks, giving it long-range capabilities. The
+                            aircraft is armed with a variety of air-to-air missiles, including AIM-7 Sparrow,
+                            AIM-120 AMRAAM, and AIM-9 Sidewinder, as well as a M61 Vulcan cannon.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -224,10 +284,20 @@
                     </div>
                     <div class="content">
                         <h3>General Dynamics - 1974</h3>
-                        <p>The F-16 Fighting Falcon is a highly versatile, multirole fighter aircraft developed by General Dynamics (now part of Lockheed Martin) for the United States Air Force. First introduced in 1978, the F-16 was designed to be a lightweight, affordable fighter capable of performing a wide range of missions, including air superiority, ground attack, and close air support.
-                        <br>
-                        <br>
-                        The F-16 is powered by a Pratt & Whitney F100-PW-200 turbofan engine, enabling it to reach speeds of up to Mach 2 (1,320 mph or 2,120 km/h). It has a combat radius of approximately 300-400 miles (480-640 km), with external fuel tanks extending its range. The aircraft is highly maneuverable due to its fly-by-wire flight control system, which provides exceptional agility and stability, even at high speeds and in challenging conditions.</p>
+                        <p>The F-16 Fighting Falcon is a highly versatile, multirole fighter aircraft developed by
+                            General Dynamics (now part of Lockheed Martin) for the United States Air Force. First
+                            introduced in 1978, the F-16 was designed to be a lightweight, affordable fighter
+                            capable of performing a wide range of missions, including air superiority, ground
+                            attack, and close air support.
+                            <br>
+                            <br>
+                            The F-16 is powered by a Pratt & Whitney F100-PW-200 turbofan engine, enabling it to
+                            reach speeds of up to Mach 2 (1,320 mph or 2,120 km/h). It has a combat radius of
+                            approximately 300-400 miles (480-640 km), with external fuel tanks extending its range.
+                            The aircraft is highly maneuverable due to its fly-by-wire flight control system, which
+                            provides exceptional agility and stability, even at high speeds and in challenging
+                            conditions.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -244,10 +314,18 @@
                     </div>
                     <div class="content">
                         <h3>McDonnell Douglas - 1978</h3>
-                        <p>The F/A-18 Hornet is a versatile, carrier-based multirole fighter aircraft developed by McDonnell Douglas (now part of Boeing) for the United States Navy. First introduced in 1983, the F/A-18 was designed to perform both air-to-air and air-to-ground combat roles, making it highly adaptable for a wide range of missions.
-                        <br>
-                        <br>
-                        The F/A-18 features a supersonic speed of Mach 1.8 (1,190 mph or 1,915 km/h) and a combat radius of approximately 400-500 miles (640-800 km), depending on the mission and configuration. It is powered by a General Electric F404 turbofan engine, giving it exceptional maneuverability and agility, especially in carrier operations, where space and precision are critical.</p>
+                        <p>The F/A-18 Hornet is a versatile, carrier-based multirole fighter aircraft developed by
+                            McDonnell Douglas (now part of Boeing) for the United States Navy. First introduced in
+                            1983, the F/A-18 was designed to perform both air-to-air and air-to-ground combat roles,
+                            making it highly adaptable for a wide range of missions.
+                            <br>
+                            <br>
+                            The F/A-18 features a supersonic speed of Mach 1.8 (1,190 mph or 1,915 km/h) and a
+                            combat radius of approximately 400-500 miles (640-800 km), depending on the mission and
+                            configuration. It is powered by a General Electric F404 turbofan engine, giving it
+                            exceptional maneuverability and agility, especially in carrier operations, where space
+                            and precision are critical.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -264,10 +342,18 @@
                     </div>
                     <div class="content">
                         <h3>Lockheed Martin - 1978</h3>
-                        <p>The F-22 Raptor is a fifth-generation, stealth, multirole fighter aircraft developed by Lockheed Martin for the United States Air Force. First introduced in 2005, the F-22 is renowned for its combination of stealth, supercruise, advanced avionics, and exceptional maneuverability.
-                        <br>
-                        <br>
-                        The F-22 is powered by two Pratt & Whitney F119-PW-100 turbofan engines, enabling it to achieve speeds of Mach 2.25 (1,500 mph or 2,414 km/h). It has a combat radius of around 460 miles (740 km), which can be extended with external fuel tanks. The F-22 is equipped with advanced avionics, including an active electronically scanned array (AESA) radar, and a range of air-to-air and air-to-ground weapons</p>
+                        <p>The F-22 Raptor is a fifth-generation, stealth, multirole fighter aircraft developed by
+                            Lockheed Martin for the United States Air Force. First introduced in 2005, the F-22 is
+                            renowned for its combination of stealth, supercruise, advanced avionics, and exceptional
+                            maneuverability.
+                            <br>
+                            <br>
+                            The F-22 is powered by two Pratt & Whitney F119-PW-100 turbofan engines, enabling it to
+                            achieve speeds of Mach 2.25 (1,500 mph or 2,414 km/h). It has a combat radius of around
+                            460 miles (740 km), which can be extended with external fuel tanks. The F-22 is equipped
+                            with advanced avionics, including an active electronically scanned array (AESA) radar,
+                            and a range of air-to-air and air-to-ground weapons
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -284,10 +370,19 @@
                     </div>
                     <div class="content">
                         <h3>Lockheed Martin - 2006</h3>
-                        <p>The F-35 Lightning II is a family of fifth-generation, multirole, stealth fighter aircraft developed by Lockheed Martin for the United States and allied nations. Designed to perform a wide range of missions, including air superiority, strike, intelligence gathering, and electronic warfare, the F-35 is one of the most advanced and versatile fighter aircraft in the world.
-                        <br>
-                        <br>
-                        The F-35 is powered by a Pratt & Whitney F135 turbofan engine, providing the aircraft with speeds exceeding Mach 1.6 (around 1,200 mph or 1,930 km/h) and a combat radius of approximately 600-700 miles (965-1,130 km). The F-35 is also equipped with advanced weapons systems, capable of carrying a variety of air-to-air and air-to-ground munitions. The aircraft also has an internal weapons bay to preserve its stealth characteristics.
+                        <p>The F-35 Lightning II is a family of fifth-generation, multirole, stealth fighter
+                            aircraft developed by Lockheed Martin for the United States and allied nations. Designed
+                            to perform a wide range of missions, including air superiority, strike, intelligence
+                            gathering, and electronic warfare, the F-35 is one of the most advanced and versatile
+                            fighter aircraft in the world.
+                            <br>
+                            <br>
+                            The F-35 is powered by a Pratt & Whitney F135 turbofan engine, providing the aircraft
+                            with speeds exceeding Mach 1.6 (around 1,200 mph or 1,930 km/h) and a combat radius of
+                            approximately 600-700 miles (965-1,130 km). The F-35 is also equipped with advanced
+                            weapons systems, capable of carrying a variety of air-to-air and air-to-ground
+                            munitions. The aircraft also has an internal weapons bay to preserve its stealth
+                            characteristics.
                         </p>
                     </div>
                 </div>
@@ -307,10 +402,18 @@
                     </div>
                     <div class="content">
                         <h3>de Havilland - 1946</h3>
-                        <p>The de Havilland Vampire was one of the United Kingdom’s earliest jet-powered fighter aircraft, developed during World War II and entering service in 1945. It was the second operational jet fighter of the Royal Air Force (RAF) after the Gloster Meteor and marked a key step in the evolution of jet aviation.
-                        <br>
-                        <br>
-                        The Vampire featured a distinctive twin-boom design with the engine housed in a central fuselage. It was powered by the de Havilland Goblin turbojet engine, capable of reaching speeds of 880 km/h (547 mph) and operating at altitudes of up to 40,000 feet. Armed with four 20mm Hispano Mk V cannons and capable of carrying bombs or rockets, it was versatile in both air-to-air and ground-attack roles.</p>
+                        <p>The de Havilland Vampire was one of the United Kingdom’s earliest jet-powered fighter
+                            aircraft, developed during World War II and entering service in 1945. It was the second
+                            operational jet fighter of the Royal Air Force (RAF) after the Gloster Meteor and marked
+                            a key step in the evolution of jet aviation.
+                            <br>
+                            <br>
+                            The Vampire featured a distinctive twin-boom design with the engine housed in a central
+                            fuselage. It was powered by the de Havilland Goblin turbojet engine, capable of reaching
+                            speeds of 880 km/h (547 mph) and operating at altitudes of up to 40,000 feet. Armed with
+                            four 20mm Hispano Mk V cannons and capable of carrying bombs or rockets, it was
+                            versatile in both air-to-air and ground-attack roles.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -326,10 +429,19 @@
                     </div>
                     <div class="content">
                         <h3>de Havilland - 1949</h3>
-                        <p>The de Havilland Venom was a British jet-powered fighter-bomber developed in the late 1940s as an evolution of the de Havilland Vampire. It entered service in 1952, offering improved performance and capabilities, particularly for ground-attack missions. The Venom was designed to meet the increasing demands of post-World War II aerial combat, combining speed, firepower, and versatility.
-                        <br>
-                        <br>
-                        The Venom retained the twin-boom configuration of its predecessor but featured a thinner, swept wing design for better aerodynamics. Powered by the de Havilland Ghost turbojet engine, it could reach speeds of 1,000 km/h (621 mph) and operate effectively at altitudes exceeding 45,000 feet. The Venom was armed with four 20mm Hispano cannons and could carry a range of bombs, rockets, and fuel tanks for extended missions.</p>
+                        <p>The de Havilland Venom was a British jet-powered fighter-bomber developed in the late
+                            1940s as an evolution of the de Havilland Vampire. It entered service in 1952, offering
+                            improved performance and capabilities, particularly for ground-attack missions. The
+                            Venom was designed to meet the increasing demands of post-World War II aerial combat,
+                            combining speed, firepower, and versatility.
+                            <br>
+                            <br>
+                            The Venom retained the twin-boom configuration of its predecessor but featured a
+                            thinner, swept wing design for better aerodynamics. Powered by the de Havilland Ghost
+                            turbojet engine, it could reach speeds of 1,000 km/h (621 mph) and operate effectively
+                            at altitudes exceeding 45,000 feet. The Venom was armed with four 20mm Hispano cannons
+                            and could carry a range of bombs, rockets, and fuel tanks for extended missions.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -345,10 +457,19 @@
                     </div>
                     <div class="content">
                         <h3>Gloster - 1943</h3>
-                        <p>The Gloster Meteor was the first British jet fighter and the Allies' only operational jet aircraft during World War II. Developed by the Gloster Aircraft Company, the Meteor made its first flight in 1943 and entered service with the Royal Air Force (RAF) in 1944. It was a significant milestone in the development of jet aviation and played a key role in the early post-war years.
-                        <br>
-                        <br>
-                        The Meteor was powered by two Rolls-Royce Welland turbojet engines, capable of propelling the aircraft to speeds of over 600 km/h (373 mph). Its design featured a straight-wing configuration, which provided stability but limited its high-speed performance compared to later jet fighters. The Meteor was armed with four 20mm Hispano Mk II cannons, making it an effective interceptor and ground-attack aircraft.</p>
+                        <p>The Gloster Meteor was the first British jet fighter and the Allies' only operational jet
+                            aircraft during World War II. Developed by the Gloster Aircraft Company, the Meteor made
+                            its first flight in 1943 and entered service with the Royal Air Force (RAF) in 1944. It
+                            was a significant milestone in the development of jet aviation and played a key role in
+                            the early post-war years.
+                            <br>
+                            <br>
+                            The Meteor was powered by two Rolls-Royce Welland turbojet engines, capable of
+                            propelling the aircraft to speeds of over 600 km/h (373 mph). Its design featured a
+                            straight-wing configuration, which provided stability but limited its high-speed
+                            performance compared to later jet fighters. The Meteor was armed with four 20mm Hispano
+                            Mk II cannons, making it an effective interceptor and ground-attack aircraft.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -364,10 +485,19 @@
                     </div>
                     <div class="content">
                         <h3>Hawker - 1951</h3>
-                        <p>The Hawker Hunter was a British jet fighter developed by the Hawker Aircraft company in the late 1940s and introduced into service in 1954. It became one of the most successful and iconic jet fighters of the 1950s and 1960s, serving in multiple roles, including as an interceptor, ground-attack aircraft, and a reconnaissance platform.
-                        <br>
-                        <br>
-                        Powered by a Rolls-Royce Avon turbojet engine, the Hawker Hunter could reach speeds of up to 1,000 km/h (621 mph) and had a range of over 2,400 km (1,500 miles). Its sleek, low-wing design with a swept-back wing configuration gave it excellent speed, maneuverability, and stability. The Hunter was armed with four 30mm ADEN cannons and could carry a variety of bombs, rockets, and air-to-air missiles, depending on the mission requirements.</p>
+                        <p>The Hawker Hunter was a British jet fighter developed by the Hawker Aircraft company in
+                            the late 1940s and introduced into service in 1954. It became one of the most successful
+                            and iconic jet fighters of the 1950s and 1960s, serving in multiple roles, including as
+                            an interceptor, ground-attack aircraft, and a reconnaissance platform.
+                            <br>
+                            <br>
+                            Powered by a Rolls-Royce Avon turbojet engine, the Hawker Hunter could reach speeds of
+                            up to 1,000 km/h (621 mph) and had a range of over 2,400 km (1,500 miles). Its sleek,
+                            low-wing design with a swept-back wing configuration gave it excellent speed,
+                            maneuverability, and stability. The Hunter was armed with four 30mm ADEN cannons and
+                            could carry a variety of bombs, rockets, and air-to-air missiles, depending on the
+                            mission requirements.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -383,10 +513,19 @@
                     </div>
                     <div class="content">
                         <h3>Gloster - 1951</h3>
-                        <p>The Gloster Javelin was a British twin-engine, all-weather jet interceptor developed by the Gloster Aircraft Company in the late 1940s and early 1950s. It was designed to meet the Royal Air Force’s need for a long-range interceptor capable of engaging enemy bombers at high altitudes, particularly in the Cold War era.
-                        <br>
-                        <br>
-                        The Javelin was one of the first British aircraft to feature a delta-wing design, providing both stability and maneuverability at high speeds and altitudes. Powered by two Rolls-Royce Avon turbojet engines, the Javelin was capable of reaching speeds up to 1,000 km/h (621 mph). The aircraft was equipped with a powerful radar system, making it effective for interception and combat in all weather conditions, which was a key requirement of its role.</p>
+                        <p>The Gloster Javelin was a British twin-engine, all-weather jet interceptor developed by
+                            the Gloster Aircraft Company in the late 1940s and early 1950s. It was designed to meet
+                            the Royal Air Force’s need for a long-range interceptor capable of engaging enemy
+                            bombers at high altitudes, particularly in the Cold War era.
+                            <br>
+                            <br>
+                            The Javelin was one of the first British aircraft to feature a delta-wing design,
+                            providing both stability and maneuverability at high speeds and altitudes. Powered by
+                            two Rolls-Royce Avon turbojet engines, the Javelin was capable of reaching speeds up to
+                            1,000 km/h (621 mph). The aircraft was equipped with a powerful radar system, making it
+                            effective for interception and combat in all weather conditions, which was a key
+                            requirement of its role.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -402,10 +541,17 @@
                     </div>
                     <div class="content">
                         <h3>English Eletric - 1954</h3>
-                        <p>The English Electric Lightning was a British supersonic interceptor and the only all-weather, twin-engine fighter capable of reaching Mach 2. Developed by the English Electric company, the Lightning entered service with the Royal Air Force (RAF) in 1960 and remained in active service until 1988. It was designed during the early Cold War to intercept Soviet bombers approaching the UK at high speeds and altitudes.
-                        <br>
-                        <br>
-                        It was powered by two Rolls-Royce Avon turbojet engines, which allowed it to reach speeds of over 2,000 km/h (1,240 mph), with a service ceiling of over 18,000 meters (60,000 feet).</p>
+                        <p>The English Electric Lightning was a British supersonic interceptor and the only
+                            all-weather, twin-engine fighter capable of reaching Mach 2. Developed by the English
+                            Electric company, the Lightning entered service with the Royal Air Force (RAF) in 1960
+                            and remained in active service until 1988. It was designed during the early Cold War to
+                            intercept Soviet bombers approaching the UK at high speeds and altitudes.
+                            <br>
+                            <br>
+                            It was powered by two Rolls-Royce Avon turbojet engines, which allowed it to reach
+                            speeds of over 2,000 km/h (1,240 mph), with a service ceiling of over 18,000 meters
+                            (60,000 feet).
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -421,10 +567,20 @@
                     </div>
                     <div class="content">
                         <h3>Supermarine - 1948</h3>
-                        <p>The Supermarine Swift was a British jet fighter developed in the late 1940s by Supermarine, the company best known for designing the Supermarine Spitfire. It was designed as a successor to the Spitfire in the role of a fighter-bomber and interceptor for the Royal Air Force (RAF). The Swift was one of the first aircraft in the UK to be powered by a turbojet engine and featured a swept-wing design, marking a shift toward the high-speed, jet-powered aircraft..
-                        <br>
-                        <br>
-                        The Swift was powered by a Rolls-Royce Avon turbojet engine, allowing it to reach speeds of over 1,000 km/h (621 mph). Its design featured a straight-wing layout initially, later upgraded to a more advanced swept-wing configuration, which improved high-speed performance and handling at altitude. The aircraft was armed with four 30mm ADEN cannons and could carry bombs or rockets.</p>
+                        <p>The Supermarine Swift was a British jet fighter developed in the late 1940s by
+                            Supermarine, the company best known for designing the Supermarine Spitfire. It was
+                            designed as a successor to the Spitfire in the role of a fighter-bomber and interceptor
+                            for the Royal Air Force (RAF). The Swift was one of the first aircraft in the UK to be
+                            powered by a turbojet engine and featured a swept-wing design, marking a shift toward
+                            the high-speed, jet-powered aircraft..
+                            <br>
+                            <br>
+                            The Swift was powered by a Rolls-Royce Avon turbojet engine, allowing it to reach speeds
+                            of over 1,000 km/h (621 mph). Its design featured a straight-wing layout initially,
+                            later upgraded to a more advanced swept-wing configuration, which improved high-speed
+                            performance and handling at altitude. The aircraft was armed with four 30mm ADEN cannons
+                            and could carry bombs or rockets.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -440,10 +596,19 @@
                     </div>
                     <div class="content">
                         <h3>Panavia - 1974</h3>
-                        <p>The Panavia Tornado is a versatile multirole combat aircraft developed by the Panavia consortium, a collaboration between Germany, Italy, and the United Kingdom. Entering service in the 1980s, the Tornado was designed to perform a wide range of roles, including ground attack, reconnaissance, and air superiority. Its adaptability made it one of the most successful European military aircraft of the Cold War and beyond.
-                        <br>
-                        <br>
-                        The Tornado features a variable-sweep wing design, allowing the aircraft to adjust its wing configuration depending on the speed and mission requirements. This design gives the Tornado exceptional performance at both low speeds for ground attack and high speeds for interception and combat. Powered by two Turbo-Union RB199 engines, it can reach speeds of over Mach 2.2 and operate at altitudes of 50,000 feet.</p>
+                        <p>The Panavia Tornado is a versatile multirole combat aircraft developed by the Panavia
+                            consortium, a collaboration between Germany, Italy, and the United Kingdom. Entering
+                            service in the 1980s, the Tornado was designed to perform a wide range of roles,
+                            including ground attack, reconnaissance, and air superiority. Its adaptability made it
+                            one of the most successful European military aircraft of the Cold War and beyond.
+                            <br>
+                            <br>
+                            The Tornado features a variable-sweep wing design, allowing the aircraft to adjust its
+                            wing configuration depending on the speed and mission requirements. This design gives
+                            the Tornado exceptional performance at both low speeds for ground attack and high speeds
+                            for interception and combat. Powered by two Turbo-Union RB199 engines, it can reach
+                            speeds of over Mach 2.2 and operate at altitudes of 50,000 feet.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -459,10 +624,20 @@
                     </div>
                     <div class="content">
                         <h3>Eurofighter - 1994</h3>
-                        <p>The Eurofighter Typhoon is a multirole, advanced fourth-generation fighter jet developed by a consortium of European aerospace companies: Airbus, BAE Systems, and Leonardo. It was designed to serve in air superiority and ground-attack roles, incorporating cutting-edge technology for both conventional and high-tech warfare. Entering service in the early 2000s, the Typhoon has become one of the most powerful and versatile aircraft in the world.
-                        <br>
-                        <br>
-                        The Typhoon is powered by two Eurojet EJ200 engines, capable of reaching speeds over Mach 2. It features a delta-wing and canard configuration, which contributes to its superb agility and high maneuverability, particularly in air combat. It can fly at supersonic speeds without the need for afterburners, increasing both efficiency and survivability.</p>
+                        <p>The Eurofighter Typhoon is a multirole, advanced fourth-generation fighter jet developed
+                            by a consortium of European aerospace companies: Airbus, BAE Systems, and Leonardo. It
+                            was designed to serve in air superiority and ground-attack roles, incorporating
+                            cutting-edge technology for both conventional and high-tech warfare. Entering service in
+                            the early 2000s, the Typhoon has become one of the most powerful and versatile aircraft
+                            in the world.
+                            <br>
+                            <br>
+                            The Typhoon is powered by two Eurojet EJ200 engines, capable of reaching speeds over
+                            Mach 2. It features a delta-wing and canard configuration, which contributes to its
+                            superb agility and high maneuverability, particularly in air combat. It can fly at
+                            supersonic speeds without the need for afterburners, increasing both efficiency and
+                            survivability.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -480,10 +655,18 @@
                     </div>
                     <div class="content">
                         <h3>Yakovlev - 1947</h3>
-                        <p>The Yakovlev Yak-15 was one of the first jet aircraft developed by the Soviet Union after World War II. It made its first flight in 1947 and was a derivative of the Yak-3, a piston-engine fighter from the war. The Yak-15 was a prototype designed as a transitional aircraft between piston-engine planes and modern jet fighters.
-                        <br>
-                        <br>
-                        The Yak-15 featured a fuselage based on the Yak-3 but was equipped with the RD-500 jet engine, a Soviet version of the Rolls-Royce Derwent. Its maximum speed was around 800 km/h, and its maneuverability was decent, though limited by the lack of experience with jet propulsion technology. The aircraft also had a T-tail configuration, which was uncommon for its time.</p>
+                        <p>The Yakovlev Yak-15 was one of the first jet aircraft developed by the Soviet Union after
+                            World War II. It made its first flight in 1947 and was a derivative of the Yak-3, a
+                            piston-engine fighter from the war. The Yak-15 was a prototype designed as a
+                            transitional aircraft between piston-engine planes and modern jet fighters.
+                            <br>
+                            <br>
+                            The Yak-15 featured a fuselage based on the Yak-3 but was equipped with the RD-500 jet
+                            engine, a Soviet version of the Rolls-Royce Derwent. Its maximum speed was around 800
+                            km/h, and its maneuverability was decent, though limited by the lack of experience with
+                            jet propulsion technology. The aircraft also had a T-tail configuration, which was
+                            uncommon for its time.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -500,10 +683,17 @@
                     </div>
                     <div class="content">
                         <h3>Mikoyan-Gurevich - 1946</h3>
-                        <p>The MiG-9 was the Soviet Union's first jet fighter to enter production, developed shortly after World War II. It made its first flight in 1946 and entered service in 1948. The MiG-9 was designed by the Mikoyan-Gurevich bureau, a renowned Soviet aircraft manufacturer, as a response to the need for a jet fighter for the Soviet Air Force.
-                        <br>
-                        <br>
-                        The MiG-9 was powered by two RD-20 jet engines, derived from the British Rolls-Royce Derwent, and featured a metal fuselage structure with straight wings. The aircraft had a maximum speed of around 1,000 km/h, but its performance was limited due to the early stage of jet technology, including issues with the engines and aerodynamics.</p>
+                        <p>The MiG-9 was the Soviet Union's first jet fighter to enter production, developed shortly
+                            after World War II. It made its first flight in 1946 and entered service in 1948. The
+                            MiG-9 was designed by the Mikoyan-Gurevich bureau, a renowned Soviet aircraft
+                            manufacturer, as a response to the need for a jet fighter for the Soviet Air Force.
+                            <br>
+                            <br>
+                            The MiG-9 was powered by two RD-20 jet engines, derived from the British Rolls-Royce
+                            Derwent, and featured a metal fuselage structure with straight wings. The aircraft had a
+                            maximum speed of around 1,000 km/h, but its performance was limited due to the early
+                            stage of jet technology, including issues with the engines and aerodynamics.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -520,10 +710,18 @@
                     </div>
                     <div class="content">
                         <h3>Mikoyan-Gurevich - 1947</h3>
-                        <p>The MiG-15 was a significant jet fighter developed by the Soviet Union after World War II. Its first flight occurred in 1947, and it entered service in 1949. Designed by the Mikoyan-Gurevich design bureau, the MiG-15 was created to compete with Western jet fighters like the American F-86 Sabre.
-                        <br>
-                        <br>
-                        The MiG-15 was powered by the RD-45 engine, a Soviet version of the British Rolls-Royce Nene, allowing it to reach speeds of around 1,080 km/h. Its design featured a compact fuselage with swept-back wings, offering excellent maneuverability, especially at high altitudes. The aircraft was armed with two 23mm cannons and could also carry rockets in some versions.</p>
+                        <p>The MiG-15 was a significant jet fighter developed by the Soviet Union after World War
+                            II. Its first flight occurred in 1947, and it entered service in 1949. Designed by the
+                            Mikoyan-Gurevich design bureau, the MiG-15 was created to compete with Western jet
+                            fighters like the American F-86 Sabre.
+                            <br>
+                            <br>
+                            The MiG-15 was powered by the RD-45 engine, a Soviet version of the British Rolls-Royce
+                            Nene, allowing it to reach speeds of around 1,080 km/h. Its design featured a compact
+                            fuselage with swept-back wings, offering excellent maneuverability, especially at high
+                            altitudes. The aircraft was armed with two 23mm cannons and could also carry rockets in
+                            some versions.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -540,10 +738,18 @@
                     </div>
                     <div class="content">
                         <h3>Mikoyan-Gurevich - 1950</h3>
-                        <p>The MiG-17 was a Soviet jet fighter developed as an improved version of the MiG-15. It first flew in 1950 and entered service in 1952. The MiG-17 was designed by the Mikoyan-Gurevich bureau to enhance the performance of the earlier MiG-15, offering better speed, maneuverability, and handling at higher altitudes.
-                        <br>
-                        <br>
-                        The MiG-17 was powered by the VK-1 engine, a Soviet version of the Rolls-Royce Nene, which provided greater thrust and a maximum speed of around 1,100 km/h. The aircraft featured redesigned swept-back wings that improved its stability and agility at higher speeds. It also had a more refined fuselage, giving it better performance in combat situations.</p>
+                        <p>The MiG-17 was a Soviet jet fighter developed as an improved version of the MiG-15. It
+                            first flew in 1950 and entered service in 1952. The MiG-17 was designed by the
+                            Mikoyan-Gurevich bureau to enhance the performance of the earlier MiG-15, offering
+                            better speed, maneuverability, and handling at higher altitudes.
+                            <br>
+                            <br>
+                            The MiG-17 was powered by the VK-1 engine, a Soviet version of the Rolls-Royce Nene,
+                            which provided greater thrust and a maximum speed of around 1,100 km/h. The aircraft
+                            featured redesigned swept-back wings that improved its stability and agility at higher
+                            speeds. It also had a more refined fuselage, giving it better performance in combat
+                            situations.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -560,10 +766,17 @@
                     </div>
                     <div class="content">
                         <h3>Mikoyan-Gurevich - 1952</h3>
-                        <p>The MiG-19 is a Soviet-designed jet fighter developed by Mikoyan-Gurevich in the 1950s. It was the first mass-produced supersonic fighter of the Soviet Union and one of the earliest aircraft capable of sustained supersonic flight.
-                        <br>
-                        <br>
-                        Powered by two afterburning turbojet engines, the MiG-19 featured a high-speed performance and strong climb rate. It was armed with three 23mm or 30mm cannons and could carry various rockets and bombs, making it versatile in air combat and ground-attack roles. Despite its impressive speed, it was criticized for short range, handling challenges, and maintenance complexity.</p>
+                        <p>The MiG-19 is a Soviet-designed jet fighter developed by Mikoyan-Gurevich in the 1950s.
+                            It was the first mass-produced supersonic fighter of the Soviet Union and one of the
+                            earliest aircraft capable of sustained supersonic flight.
+                            <br>
+                            <br>
+                            Powered by two afterburning turbojet engines, the MiG-19 featured a high-speed
+                            performance and strong climb rate. It was armed with three 23mm or 30mm cannons and
+                            could carry various rockets and bombs, making it versatile in air combat and
+                            ground-attack roles. Despite its impressive speed, it was criticized for short range,
+                            handling challenges, and maintenance complexity.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -580,10 +793,17 @@
                     </div>
                     <div class="content">
                         <h3>Mikoyan-Gurevich - 1955</h3>
-                        <p>Gurevich design bureau in the Soviet Union during the 1950s. It became one of the most iconic and widely produced jet fighters in history, with over 11,000 units built and deployed in more than 60 countries.
-                        <br>
-                        <br>
-                        The MiG-21 was designed as a lightweight, highly maneuverable interceptor. It features a delta-wing design, which provides high speed and agility, and is powered by a single turbojet engine with afterburner capability, allowing it to reach speeds of up to Mach 2. Armed with a 23mm internal cannon and the ability to carry air-to-air missiles, bombs, and rockets, it was versatile in combat roles.</p>
+                        <p>Gurevich design bureau in the Soviet Union during the 1950s. It became one of the most
+                            iconic and widely produced jet fighters in history, with over 11,000 units built and
+                            deployed in more than 60 countries.
+                            <br>
+                            <br>
+                            The MiG-21 was designed as a lightweight, highly maneuverable interceptor. It features a
+                            delta-wing design, which provides high speed and agility, and is powered by a single
+                            turbojet engine with afterburner capability, allowing it to reach speeds of up to Mach
+                            2. Armed with a 23mm internal cannon and the ability to carry air-to-air missiles,
+                            bombs, and rockets, it was versatile in combat roles.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -600,10 +820,18 @@
                     </div>
                     <div class="content">
                         <h3>Mikoyan-Gurevich - 1967</h3>
-                        <p>The MiG-23 is a variable-geometry jet fighter developed by the Mikoyan-Gurevich design bureau in the Soviet Union during the late 1960s. It was designed as a multirole aircraft capable of engaging enemy aircraft, conducting ground-attack missions, and operating in various weather conditions.
-                        <br>
-                        <br>
-                        The MiG-23 was notable for its swing-wing design, allowing the wings to adjust their sweep angle during flight. Powered by a single turbofan engine with an afterburner, it could reach speeds of over Mach 2.3. The aircraft was equipped with advanced avionics for its time, a radar system, and a robust armament that included a 23mm cannon, air-to-air missiles, and ground-attack munitions.</p>
+                        <p>The MiG-23 is a variable-geometry jet fighter developed by the Mikoyan-Gurevich design
+                            bureau in the Soviet Union during the late 1960s. It was designed as a multirole
+                            aircraft capable of engaging enemy aircraft, conducting ground-attack missions, and
+                            operating in various weather conditions.
+                            <br>
+                            <br>
+                            The MiG-23 was notable for its swing-wing design, allowing the wings to adjust their
+                            sweep angle during flight. Powered by a single turbofan engine with an afterburner, it
+                            could reach speeds of over Mach 2.3. The aircraft was equipped with advanced avionics
+                            for its time, a radar system, and a robust armament that included a 23mm cannon,
+                            air-to-air missiles, and ground-attack munitions.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -620,10 +848,18 @@
                     </div>
                     <div class="content">
                         <h3>Mikoyan-Gurevich - 1977</h3>
-                        <p>The MiG-29 is a fourth-generation multirole jet fighter developed by the Mikoyan design bureau in the Soviet Union during the 1970s. It was designed to compete with Western fighters like the F-15 Eagle and F-16 Fighting Falcon, offering advanced capabilities in air superiority and ground-attack roles.
-                        <br>
-                        <br>
-                        The MiG-29 features twin engines, advanced aerodynamics, and cutting-edge avionics for its era. Its design emphasizes agility, with a high thrust-to-weight ratio and excellent maneuverability, making it effective in dogfights. The fighter is equipped with a 30mm GSh-30-1 cannon and can carry a wide array of weapons, including air-to-air and air-to-ground missiles, bombs, and rockets. It has a maximum speed of Mach 2.25.</p>
+                        <p>The MiG-29 is a fourth-generation multirole jet fighter developed by the Mikoyan design
+                            bureau in the Soviet Union during the 1970s. It was designed to compete with Western
+                            fighters like the F-15 Eagle and F-16 Fighting Falcon, offering advanced capabilities in
+                            air superiority and ground-attack roles.
+                            <br>
+                            <br>
+                            The MiG-29 features twin engines, advanced aerodynamics, and cutting-edge avionics for
+                            its era. Its design emphasizes agility, with a high thrust-to-weight ratio and excellent
+                            maneuverability, making it effective in dogfights. The fighter is equipped with a 30mm
+                            GSh-30-1 cannon and can carry a wide array of weapons, including air-to-air and
+                            air-to-ground missiles, bombs, and rockets. It has a maximum speed of Mach 2.25.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -640,10 +876,19 @@
                     </div>
                     <div class="content">
                         <h3>Mikoyan-Gurevich - 1973</h3>
-                        <p>The MiG-31 is a supersonic interceptor developed by the Mikoyan design bureau in the Soviet Union during the 1970s. It was designed as a successor to the MiG-25, optimized for high-speed interception and long-range air defense missions, especially against cruise missiles and bombers.
-                        <br>
-                        <br>
-                        Powered by two powerful turbofan engines, the MiG-31 can achieve speeds of Mach 2.83 and operate at altitudes exceeding 20,000 meters. It is equipped with the Zaslon phased-array radar, one of the first of its kind, allowing it to track multiple targets simultaneously over long distances. The aircraft carries an impressive weapons load, including long-range R-33 air-to-air missiles and short-range missiles, making it highly effective in defending vast airspaces.</p>
+                        <p>The MiG-31 is a supersonic interceptor developed by the Mikoyan design bureau in the
+                            Soviet Union during the 1970s. It was designed as a successor to the MiG-25, optimized
+                            for high-speed interception and long-range air defense missions, especially against
+                            cruise missiles and bombers.
+                            <br>
+                            <br>
+                            Powered by two powerful turbofan engines, the MiG-31 can achieve speeds of Mach 2.83 and
+                            operate at altitudes exceeding 20,000 meters. It is equipped with the Zaslon
+                            phased-array radar, one of the first of its kind, allowing it to track multiple targets
+                            simultaneously over long distances. The aircraft carries an impressive weapons load,
+                            including long-range R-33 air-to-air missiles and short-range missiles, making it highly
+                            effective in defending vast airspaces.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -660,10 +905,18 @@
                     </div>
                     <div class="content">
                         <h3>Sukhoi - 1977</h3>
-                        <p>The Su-27 is a highly maneuverable, twin-engine air superiority fighter developed by the Sukhoi design bureau in the Soviet Union during the 1970s. It was created to counter advanced Western fighters like the F-15 Eagle and to establish air dominance in long-range and high-performance combat.
-                        <br>
-                        <br>
-                        The Su-27 features an aerodynamic design with a blended wing-body configuration, giving it exceptional agility, especially at high angles of attack. It is equipped with a powerful radar system, a 30mm cannon, and a variety of air-to-air missiles, including R-27 and R-73 missiles. The fighter can reach speeds of Mach 2.35 and has an impressive operational range, making it suitable for both offensive and defensive missions.</p>
+                        <p>The Su-27 is a highly maneuverable, twin-engine air superiority fighter developed by the
+                            Sukhoi design bureau in the Soviet Union during the 1970s. It was created to counter
+                            advanced Western fighters like the F-15 Eagle and to establish air dominance in
+                            long-range and high-performance combat.
+                            <br>
+                            <br>
+                            The Su-27 features an aerodynamic design with a blended wing-body configuration, giving
+                            it exceptional agility, especially at high angles of attack. It is equipped with a
+                            powerful radar system, a 30mm cannon, and a variety of air-to-air missiles, including
+                            R-27 and R-73 missiles. The fighter can reach speeds of Mach 2.35 and has an impressive
+                            operational range, making it suitable for both offensive and defensive missions.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -680,10 +933,17 @@
                     </div>
                     <div class="content">
                         <h3>Sukhoi - 1997</h3>
-                        <p>The Su-47 Berkuk is an experimental fighter developed by the Sukhoi design bureau in the 1990s. It was a testbed for advanced technologies, particularly its distinctive forward-swept wings, which provided exceptional maneuverability, high angles of attack, and improved stability at low speeds.
-                        <br>
-                        <br>
-                        The Su-47 was powered by twin turbofan engines and incorporated advanced composite materials to support the stress of its unique wing design. It featured modern avionics, a glass cockpit, and advanced radar systems. The aircraft was armed with a 30mm cannon and could carry a range of air-to-air and air-to-ground weapons.</p>
+                        <p>The Su-47 Berkuk is an experimental fighter developed by the Sukhoi design bureau in the
+                            1990s. It was a testbed for advanced technologies, particularly its distinctive
+                            forward-swept wings, which provided exceptional maneuverability, high angles of attack,
+                            and improved stability at low speeds.
+                            <br>
+                            <br>
+                            The Su-47 was powered by twin turbofan engines and incorporated advanced composite
+                            materials to support the stress of its unique wing design. It featured modern avionics,
+                            a glass cockpit, and advanced radar systems. The aircraft was armed with a 30mm cannon
+                            and could carry a range of air-to-air and air-to-ground weapons.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -700,10 +960,19 @@
                     </div>
                     <div class="content">
                         <h3>Sukhoi - 2010</h3>
-                        <p>The Su-57 is Russia's first fifth-generation stealth multirole fighter, developed by the Sukhoi design bureau. It combines advanced stealth, high speed, supermaneuverability, and cutting-edge avionics to perform air superiority, strike, and reconnaissance missions.   
-                        <br>
-                        <br>
-                        The Su-57 features a sleek design with internal weapons bays to enhance stealth, thrust-vectoring engines for extreme agility, and composite materials to reduce radar signature. Its avionics suite includes a powerful AESA radar, advanced sensors, and network-centric capabilities, allowing it to operate in highly contested environments. The aircraft is armed with a 30mm cannon and a wide range of precision-guided air-to-air and air-to-ground weapons.</p>
+                        <p>The Su-57 is Russia's first fifth-generation stealth multirole fighter, developed by the
+                            Sukhoi design bureau. It combines advanced stealth, high speed, supermaneuverability,
+                            and cutting-edge avionics to perform air superiority, strike, and reconnaissance
+                            missions.
+                            <br>
+                            <br>
+                            The Su-57 features a sleek design with internal weapons bays to enhance stealth,
+                            thrust-vectoring engines for extreme agility, and composite materials to reduce radar
+                            signature. Its avionics suite includes a powerful AESA radar, advanced sensors, and
+                            network-centric capabilities, allowing it to operate in highly contested environments.
+                            The aircraft is armed with a 30mm cannon and a wide range of precision-guided air-to-air
+                            and air-to-ground weapons.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -722,10 +991,18 @@
                     </div>
                     <div class="content">
                         <h3>SAAB - 1947</h3>
-                        <p>The Saab J-21 was a Swedish jet fighter developed in the late 1940s. Its first flight occurred in 1947, and it entered service in 1951. The J-21 was designed by the Swedish company Saab as a response to the need for a domestic jet fighter following World War II.
-                        <br>
-                        <br>
-                        The J-21 was powered by a single turbojet engine, the BMW 003, which was derived from German technology. It had a unique design, featuring a piston engine-like nose, which was used for the aircraft’s initial prototype, while the later J-21A-2 variant was powered by a turbojet. The aircraft had a top speed of around 1,000 km/h and was known for its excellent maneuverability.</p>
+                        <p>The Saab J-21 was a Swedish jet fighter developed in the late 1940s. Its first flight
+                            occurred in 1947, and it entered service in 1951. The J-21 was designed by the Swedish
+                            company Saab as a response to the need for a domestic jet fighter following World War
+                            II.
+                            <br>
+                            <br>
+                            The J-21 was powered by a single turbojet engine, the BMW 003, which was derived from
+                            German technology. It had a unique design, featuring a piston engine-like nose, which
+                            was used for the aircraft’s initial prototype, while the later J-21A-2 variant was
+                            powered by a turbojet. The aircraft had a top speed of around 1,000 km/h and was known
+                            for its excellent maneuverability.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -741,10 +1018,19 @@
                     </div>
                     <div class="content">
                         <h3>SAAB - 1949</h3>
-                        <p>The Saab J-29, also known as the "Tunnan" (meaning "Barrel" in Swedish due to its fuselage shape), was a Swedish jet fighter developed in the late 1940s and introduced in 1953. It was one of the first Swedish-made jet fighters and featured a distinctive, round fuselage and straight wings. 
-                        <br>
-                        <br>
-                        The J-29 was powered by the Rolls-Royce Avon turbojet engine, allowing it to reach speeds of around 1,050 km/h. Its armament included four 20mm cannons, and it was used in both fighter and ground-attack roles. The J-29 was highly regarded for its rugged design and versatility, and it served in the Swedish Air Force until the 1970s. The aircraft’s unique design influenced later Swedish aviation, particularly in the development of the Saab 35 Draken.</p>
+                        <p>The Saab J-29, also known as the "Tunnan" (meaning "Barrel" in Swedish due to its
+                            fuselage shape), was a Swedish jet fighter developed in the late 1940s and introduced in
+                            1953. It was one of the first Swedish-made jet fighters and featured a distinctive,
+                            round fuselage and straight wings.
+                            <br>
+                            <br>
+                            The J-29 was powered by the Rolls-Royce Avon turbojet engine, allowing it to reach
+                            speeds of around 1,050 km/h. Its armament included four 20mm cannons, and it was used in
+                            both fighter and ground-attack roles. The J-29 was highly regarded for its rugged design
+                            and versatility, and it served in the Swedish Air Force until the 1970s. The aircraft’s
+                            unique design influenced later Swedish aviation, particularly in the development of the
+                            Saab 35 Draken.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -761,10 +1047,18 @@
                     </div>
                     <div class="content">
                         <h3>SAAB - 1952</h3>
-                        <p>The Saab J-32 Lansen was a Swedish multi-role jet aircraft developed in the 1950s. It was designed primarily for ground attack, but also served in reconnaissance and bomber interception roles. The J-32 was powered by a Rolls-Royce Avon turbojet engine, which allowed it to reach speeds of up to 1,100 km/h.
-                        <br>
-                        <br>
-                        The J-32 featured a traditional fuselage and a distinctive straight-wing design, which provided stability and control during its various roles. Its armament included a 30mm cannon and the ability to carry bombs and rockets, making it effective in ground-attack missions. The Lansen also had a version equipped for reconnaissance missions, with a variety of sensors and cameras.</p>
+                        <p>The Saab J-32 Lansen was a Swedish multi-role jet aircraft developed in the 1950s. It was
+                            designed primarily for ground attack, but also served in reconnaissance and bomber
+                            interception roles. The J-32 was powered by a Rolls-Royce Avon turbojet engine, which
+                            allowed it to reach speeds of up to 1,100 km/h.
+                            <br>
+                            <br>
+                            The J-32 featured a traditional fuselage and a distinctive straight-wing design, which
+                            provided stability and control during its various roles. Its armament included a 30mm
+                            cannon and the ability to carry bombs and rockets, making it effective in ground-attack
+                            missions. The Lansen also had a version equipped for reconnaissance missions, with a
+                            variety of sensors and cameras.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -781,10 +1075,17 @@
                     </div>
                     <div class="content">
                         <h3>SAAB - 1955</h3>
-                        <p>The Saab J-35 Draken, introduced in the 1960s, was a Swedish delta-winged fighter aircraft designed for air superiority. It featured a distinctive double-delta wing configuration, which provided exceptional maneuverability and stability at high speeds and altitudes. 
-                        <br>
-                        <br>    
-                        Powered by a Volvo RM6B turbojet engine, the Draken could reach speeds of Mach 2. It was armed with a 30mm cannon and could carry a variety of air-to-air missiles. The J-35 served in the Swedish Air Force from the 1960s to the 1990s, with over 600 units built. It was known for its performance in both combat and reconnaissance missions, playing a crucial role in Sweden’s defense during the Cold War.
+                        <p>The Saab J-35 Draken, introduced in the 1960s, was a Swedish delta-winged fighter
+                            aircraft designed for air superiority. It featured a distinctive double-delta wing
+                            configuration, which provided exceptional maneuverability and stability at high speeds
+                            and altitudes.
+                            <br>
+                            <br>
+                            Powered by a Volvo RM6B turbojet engine, the Draken could reach speeds of Mach 2. It was
+                            armed with a 30mm cannon and could carry a variety of air-to-air missiles. The J-35
+                            served in the Swedish Air Force from the 1960s to the 1990s, with over 600 units built.
+                            It was known for its performance in both combat and reconnaissance missions, playing a
+                            crucial role in Sweden’s defense during the Cold War.
                         </p>
                     </div>
                 </div>
@@ -802,10 +1103,17 @@
                     </div>
                     <div class="content">
                         <h3>SAAB - 1967</h3>
-                        <p>The Saab J-37 Viggen was a Swedish multirole combat aircraft developed in the 1970s. It was known for its advanced technology and versatility, capable of performing air superiority, ground attack, and reconnaissance missions. 
-                        <br>
-                        <br>
-                        The Viggen featured a delta wing with canards and was powered by a Volvo RM8A engine, giving it speeds of up to Mach 2. It also had vertical takeoff and landing (VTOL) capabilities, which allowed for operation from shorter runways. Armed with a variety of missiles, bombs, and a 30mm cannon, the JA-37 was an essential part of Sweden's air defense until it was retired in the 2000s. Its distinctive design and advanced avionics made it one of the most innovative aircraft of its time.
+                        <p>The Saab J-37 Viggen was a Swedish multirole combat aircraft developed in the 1970s. It
+                            was known for its advanced technology and versatility, capable of performing air
+                            superiority, ground attack, and reconnaissance missions.
+                            <br>
+                            <br>
+                            The Viggen featured a delta wing with canards and was powered by a Volvo RM8A engine,
+                            giving it speeds of up to Mach 2. It also had vertical takeoff and landing (VTOL)
+                            capabilities, which allowed for operation from shorter runways. Armed with a variety of
+                            missiles, bombs, and a 30mm cannon, the JA-37 was an essential part of Sweden's air
+                            defense until it was retired in the 2000s. Its distinctive design and advanced avionics
+                            made it one of the most innovative aircraft of its time.
                         </p>
                     </div>
                 </div>
@@ -823,10 +1131,18 @@
                     </div>
                     <div class="content">
                         <h3>SAAB - 1988</h3>
-                        <p>The Saab Jas 39 Gripen is a modern Swedish multirole fighter that entered service in the late 1990s. It was designed to be lightweight, highly maneuverable, and cost-effective, with advanced avionics and a powerful engine. 
-                        <br>
-                        <br>
-                        The Gripen is powered by a Volvo RM12 engine and has a top speed of around Mach 2. It is equipped with a range of air-to-air and air-to-ground weapons, including advanced radar systems for both combat and reconnaissance missions. The Jas 39 Gripen is known for its ability to operate from short runways and even highways, offering excellent flexibility for Sweden's defense needs. It is still in active service with the Swedish Air Force and has been exported to several countries.</p>
+                        <p>The Saab Jas 39 Gripen is a modern Swedish multirole fighter that entered service in the
+                            late 1990s. It was designed to be lightweight, highly maneuverable, and cost-effective,
+                            with advanced avionics and a powerful engine.
+                            <br>
+                            <br>
+                            The Gripen is powered by a Volvo RM12 engine and has a top speed of around Mach 2. It is
+                            equipped with a range of air-to-air and air-to-ground weapons, including advanced radar
+                            systems for both combat and reconnaissance missions. The Jas 39 Gripen is known for its
+                            ability to operate from short runways and even highways, offering excellent flexibility
+                            for Sweden's defense needs. It is still in active service with the Swedish Air Force and
+                            has been exported to several countries.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -845,10 +1161,17 @@
                     </div>
                     <div class="content">
                         <h3>Dassault - 1949</h3>
-                        <p>The MD 450 Ouragan was the first jet fighter designed and produced in France after World War II. Developed by the aircraft manufacturer Dassault Aviation, the Ouragan first flew in 1949 and entered service in 1952.
-                        <br>
-                        <br>
-                        This single-seat fighter was equipped with a Rolls-Royce Nene engine, which was licensed and produced in France. It featured a straight-wing design and was primarily used as an interceptor and ground-attack aircraft. The Ouragan demonstrated reliable performance and became a significant milestone in French aviation, marking the country's resurgence as a producer of modern military aircraft.</p>
+                        <p>The MD 450 Ouragan was the first jet fighter designed and produced in France after World
+                            War II. Developed by the aircraft manufacturer Dassault Aviation, the Ouragan first flew
+                            in 1949 and entered service in 1952.
+                            <br>
+                            <br>
+                            This single-seat fighter was equipped with a Rolls-Royce Nene engine, which was licensed
+                            and produced in France. It featured a straight-wing design and was primarily used as an
+                            interceptor and ground-attack aircraft. The Ouragan demonstrated reliable performance
+                            and became a significant milestone in French aviation, marking the country's resurgence
+                            as a producer of modern military aircraft.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -865,10 +1188,17 @@
                     </div>
                     <div class="content">
                         <h3>Dassault - 1958</h3>
-                        <p>The Dassault Mirage III is a French supersonic jet fighter designed by Dassault Aviation in the 1950s. It became one of the most successful and widely used fighter aircraft of its era. The Mirage III was the first European combat aircraft to exceed Mach 2 in level flight, marking a significant technological achievement.
-                        <br>
-                        <br>
-                        The Mirage III featured a sleek delta-wing design, which provided excellent speed and maneuverability but limited low-speed handling. It was powered by a SNECMA Atar 09 turbojet engine, and its versatility allowed it to perform various roles, including interception, ground attack, and reconnaissance.</p>
+                        <p>The Dassault Mirage III is a French supersonic jet fighter designed by Dassault Aviation
+                            in the 1950s. It became one of the most successful and widely used fighter aircraft of
+                            its era. The Mirage III was the first European combat aircraft to exceed Mach 2 in level
+                            flight, marking a significant technological achievement.
+                            <br>
+                            <br>
+                            The Mirage III featured a sleek delta-wing design, which provided excellent speed and
+                            maneuverability but limited low-speed handling. It was powered by a SNECMA Atar 09
+                            turbojet engine, and its versatility allowed it to perform various roles, including
+                            interception, ground attack, and reconnaissance.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -878,17 +1208,24 @@
             </div>
 
             <div class="slide">
-                <img src="./src/images/French/Mirage2000.png" alt="Mirage-2000">
+                <img src="./src/images/French/Mirage2000.jpg" alt="Mirage-2000">
                 <div class="left-info">
                     <div class="penetrte-blur">
                         <h1>Mir</h1>
                     </div>
                     <div class="content">
                         <h3>Dassault - 1978</h3>
-                        <p>The Dassault Mirage 2000 is a fourth-generation multirole fighter aircraft developed by Dassault Aviation in the late 1970s. Designed as a lightweight, highly maneuverable aircraft, it features a delta-wing configuration and advanced avionics, making it one of the most capable fighters of its time.
-                        <br>
-                        <br>
-                        Powered by a SNECMA M53-P2 afterburning turbofan engine, the Mirage 2000 is capable of reaching speeds up to Mach 2.2. It is equipped with a range of air-to-air and air-to-ground weapons, including precision-guided munitions and the MBDA MICA and Magic II missiles, enabling it to perform both interception and strike missions effectively.</p>
+                        <p>The Dassault Mirage 2000 is a fourth-generation multirole fighter aircraft developed by
+                            Dassault Aviation in the late 1970s. Designed as a lightweight, highly maneuverable
+                            aircraft, it features a delta-wing configuration and advanced avionics, making it one of
+                            the most capable fighters of its time.
+                            <br>
+                            <br>
+                            Powered by a SNECMA M53-P2 afterburning turbofan engine, the Mirage 2000 is capable of
+                            reaching speeds up to Mach 2.2. It is equipped with a range of air-to-air and
+                            air-to-ground weapons, including precision-guided munitions and the MBDA MICA and Magic
+                            II missiles, enabling it to perform both interception and strike missions effectively.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -905,10 +1242,19 @@
                     </div>
                     <div class="content">
                         <h3>Dassault - 1966</h3>
-                        <p>The Dassault Mirage F1 is a French single-engine multirole fighter aircraft developed by Dassault Aviation in the late 1960s as a successor to the Mirage III. Unlike its predecessor, the Mirage F1 features a swept-wing design instead of a delta wing, providing improved maneuverability, better low-speed performance, and greater payload capacity.
-                        <br>
-                        <br>
-                        Powered by the SNECMA Atar 9K-50 turbojet engine, the Mirage F1 can reach speeds of Mach 2.2 and has a combat range exceeding 1,500 kilometers, making it a versatile platform for both air-to-air and air-to-ground missions. It is equipped with advanced avionics for its time, including radar systems, and can carry a variety of weapons, including Matra missiles, bombs, and reconnaissance equipment.</p>
+                        <p>The Dassault Mirage F1 is a French single-engine multirole fighter aircraft developed by
+                            Dassault Aviation in the late 1960s as a successor to the Mirage III. Unlike its
+                            predecessor, the Mirage F1 features a swept-wing design instead of a delta wing,
+                            providing improved maneuverability, better low-speed performance, and greater payload
+                            capacity.
+                            <br>
+                            <br>
+                            Powered by the SNECMA Atar 9K-50 turbojet engine, the Mirage F1 can reach speeds of Mach
+                            2.2 and has a combat range exceeding 1,500 kilometers, making it a versatile platform
+                            for both air-to-air and air-to-ground missions. It is equipped with advanced avionics
+                            for its time, including radar systems, and can carry a variety of weapons, including
+                            Matra missiles, bombs, and reconnaissance equipment.
+                        </p>
                     </div>
                 </div>
                 <div class="right-info">
@@ -925,10 +1271,17 @@
                     </div>
                     <div class="content">
                         <h3>Dassault - 1979</h3>
-                        <p>The Dassault Mirage 4000 was a prototype twin-engine, multirole fighter aircraft developed by Dassault Aviation in the late 1970s. Based on the Mirage 2000, the Mirage 4000 was significantly larger and more powerful, intended to compete with advanced fighters like the McDonnell Douglas F-15 Eagle.
-                        <br>
-                        <br>
-                        The Mirage 4000 featured a delta-wing configuration similar to the Mirage 2000 but incorporated additional canard foreplanes for improved agility and lift. Powered by two SNECMA M53-P2 afterburning turbofan engines, it could achieve speeds of over Mach 2 and had an extended range, thanks to its larger fuel capacity and aerial refueling capability.
+                        <p>The Dassault Mirage 4000 was a prototype twin-engine, multirole fighter aircraft
+                            developed by Dassault Aviation in the late 1970s. Based on the Mirage 2000, the Mirage
+                            4000 was significantly larger and more powerful, intended to compete with advanced
+                            fighters like the McDonnell Douglas F-15 Eagle.
+                            <br>
+                            <br>
+                            The Mirage 4000 featured a delta-wing configuration similar to the Mirage 2000 but
+                            incorporated additional canard foreplanes for improved agility and lift. Powered by two
+                            SNECMA M53-P2 afterburning turbofan engines, it could achieve speeds of over Mach 2 and
+                            had an extended range, thanks to its larger fuel capacity and aerial refueling
+                            capability.
                         </p>
                     </div>
                 </div>
@@ -946,10 +1299,17 @@
                     </div>
                     <div class="content">
                         <h3>Dassault - 1988</h3>
-                        <p>The Dassault Rafale is a highly advanced, multirole fighter aircraft developed by Dassault Aviation. Introduced in the early 2000s, the Rafale represents the pinnacle of French aerospace engineering, designed to perform a wide variety of missions with unparalleled versatility.
-                        <br>
-                        <br>
-                        The Rafale features a delta wing design with canard foreplanes, providing exceptional agility and aerodynamic efficiency. It is powered by twin SNECMA M88 turbofan engines, enabling speeds up to Mach 1.8 and operations from both land bases and aircraft carriers. Its design emphasizes survivability, with advanced stealth features to reduce radar cross-section and infrared signature.
+                        <p>The Dassault Rafale is a highly advanced, multirole fighter aircraft developed by
+                            Dassault Aviation. Introduced in the early 2000s, the Rafale represents the pinnacle of
+                            French aerospace engineering, designed to perform a wide variety of missions with
+                            unparalleled versatility.
+                            <br>
+                            <br>
+                            The Rafale features a delta wing design with canard foreplanes, providing exceptional
+                            agility and aerodynamic efficiency. It is powered by twin SNECMA M88 turbofan engines,
+                            enabling speeds up to Mach 1.8 and operations from both land bases and aircraft
+                            carriers. Its design emphasizes survivability, with advanced stealth features to reduce
+                            radar cross-section and infrared signature.
                         </p>
                     </div>
                 </div>
@@ -967,7 +1327,7 @@
                 <i class="fa-solid fa-chevron-right"></i>
             </span>
         </div>
-    </section>
+    </main>
 
     <script src="./src/js/index.js"></script>
 </body>

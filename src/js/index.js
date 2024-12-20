@@ -6,11 +6,26 @@ document.addEventListener('DOMContentLoaded', () => {
     const prevBtn = document.getElementById("prev-btn");
     const slider = document.querySelectorAll('.slider');
 
-    let currentGroup = null;
+    let currentGroup = 0;
     let slideNumber = 0;
 
+    function setInitialSlide() {
+        botaoPrincipal.firstChild.textContent = 'United States';
+        countryList.classList.add('hidden');
+        botaoPrincipal.classList.remove('active');
+
+        const activeGroup = slider[currentGroup];
+        activeGroup.classList.add('ativo');
+        
+        const slides = activeGroup.querySelectorAll('.slide');
+        slides.forEach(slide => slide.classList.remove('active'));
+        slides[slideNumber].classList.add('active');
+    }
+
+    setInitialSlide();
+
     nextBtn.onclick = () => {
-        if (currentGroup=== null) return;
+        if (currentGroup === null) return;
 
         const slides = slider[currentGroup].querySelectorAll('.slide');
 
@@ -25,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     prevBtn.onclick = () => {
-        if (currentGroup=== null) return;
+        if (currentGroup === null) return;
 
         const slides = slider[currentGroup].querySelectorAll('.slide');
 
@@ -39,8 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
         slides[slideNumber].classList.add('active');
     };
 
-
-    //Menu de paises
+    // Menu de países
     botaoPrincipal.addEventListener('click', () => {
         countryList.classList.toggle('hidden');
         botaoPrincipal.classList.toggle('active');
@@ -59,12 +73,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function changeSlide() {
         const countryIndex = {
-            'Welcome': 0,
-            'United States': 1,
-            'United Kingdom': 2,
-            'Russia': 3,
-            'Sweden': 4,
-            'France': 5
+            'United States': 0,
+            'United Kingdom': 1,
+            'Russia': 2,
+            'Sweden': 3,
+            'France': 4
         };
     
         slider.forEach(slide => slide.classList.remove('ativo'));
@@ -83,4 +96,3 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 });
-

@@ -111,7 +111,7 @@ html {
     gap: 15px;
 }
 
-.links button {
+.links a {
     font-size: 1.4rem;
     background: transparent;
     border-radius: 10px;
@@ -121,6 +121,6 @@ html {
     transition: all 0.3s ease-in-out;
 }
 
-.links button:hover {
+.links a:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
