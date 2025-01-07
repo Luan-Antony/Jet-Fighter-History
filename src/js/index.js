@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const botaoPrincipal = document.querySelector('.botao-principal');
+    const countryDisplay = document.querySelector('.country-display');
     const countryList = document.querySelector('.country-list');
 
     const nextBtn = document.getElementById("next-btn");
@@ -10,9 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let slideNumber = 0;
 
     function setInitialSlide() {
-        botaoPrincipal.firstChild.textContent = 'United States';
+        countryDisplay.firstChild.textContent = 'United States';
         countryList.classList.add('hidden');
-        botaoPrincipal.classList.remove('active');
+        countryDisplay.classList.remove('active');
 
         const activeGroup = slider[currentGroup];
         activeGroup.classList.add('ativo');
@@ -55,17 +55,17 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // Menu de países
-    botaoPrincipal.addEventListener('click', () => {
+    countryDisplay.addEventListener('click', () => {
         countryList.classList.toggle('hidden');
-        botaoPrincipal.classList.toggle('active');
+        countryDisplay.classList.toggle('active');
     });
 
     countryList.addEventListener('click', (event) => {
         if (event.target.classList.contains('country')) {
-            botaoPrincipal.firstChild.textContent = event.target.textContent;
+            countryDisplay.firstChild.textContent = event.target.textContent;
 
             countryList.classList.add('hidden');
-            botaoPrincipal.classList.remove('active');
+            countryDisplay.classList.remove('active');
 
             changeSlide();
         }
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
         slider.forEach(slide => slide.classList.remove('ativo'));
     
-        const country = botaoPrincipal.firstChild.textContent;
+        const country = countryDisplay.firstChild.textContent;
         const index = countryIndex[country];
         if (index !== undefined) {
             currentGroup = index;
